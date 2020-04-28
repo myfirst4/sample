@@ -1,0 +1,62 @@
+﻿<html>
+<head>
+<style type="text/css" media="screen">
+body{
+background-image:url("2.jpg"); 
+}
+.box{
+background-color:black;
+border:5px solid yellow;
+color:white;
+width:20%;
+margin:0;
+padding:10px;
+text-align:center;
+transform:translate(170%,50%);
+border-radius:24px;
+}
+.box input[type="text"], .box input[type="password" ]{
+background:none;
+border:2px solid yellow;
+color:white;
+display:block;
+border-radius:24px;
+width:60%;
+padding:10px;
+text-align:center;
+margin-left: auto;
+margin-right: auto;
+}
+.box input[type="text"]:hover, .box input[type="password" ]:hover{
+    border:2px solid green;
+    width:80%;
+}
+.box input[type="submit"]:hover{
+      background-color:green;
+      cursor:pointer;
+}
+.box input[type="submit"]{
+background:none;
+border:2px solid green;
+color:white;
+display:block;
+border-radius:24px;
+width:30%;
+padding:10px;
+text-align:center;
+margin-left: auto;
+margin-right: auto;
+}
+</style>
+</head>
+<body>
+<div class="box">
+<h1><b>LOGIN</b></h1>
+<form action="sample.html"  method="post" target="_blank">
+<input type="text"  name="user"  placeholder="Username" size="20" required/><br/><br/>
+<input type="password"  name="pwd"  placeholder="Password" size="20" required/><br/><br/>
+<input type="submit"   value="login"/>
+</form>
+</div>
+</body>
+</html> 

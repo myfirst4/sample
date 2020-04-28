@@ -1,0 +1,29 @@
+﻿<html>
+<head>
+<style type="text/css" media="screen">
+body{
+    font-size:2.2em;
+   background-image:url("2.jpg");
+    color:black;
+    font-family:arial;
+}
+  div{
+    border:2px solid black;
+     width:20%;
+     margin:0;
+      animation: ani 10s linear 1s infinite reverse; 
+      position:relative;
+}
+  @keyframes  ani{
+      0%{background-color:pink; color: black; left:0;  top: 0;}
+     25%{background-color:yellow; color: black; left:200;  top: 0;}
+    50%{background-color:blue; color: black;  left:200;  top:200;}
+    75%{background-color:aqua; color: black;  left:0;  top: 200;}
+    100%{background-color:brown; color: black;  left:0;  top: 0;}
+}
+</style>
+</head>
+<body>
+<div>This is sample animation</div>
+</body>
+</html>
